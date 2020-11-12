@@ -1,10 +1,19 @@
 import React from 'react'
 
-import { ExampleComponent } from 'aranda-design-library'
+import { Accordion, Button } from 'aranda-design-library'
 import 'aranda-design-library/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <>
+      <Button
+        type='bg'
+        color='secondary'
+        text='Aranda Design System Components 😄'
+      />
+      <Accordion />
+    </>
+  )
 }
 
 export default App
